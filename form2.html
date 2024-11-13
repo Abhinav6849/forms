@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body bgcolor="silver">
+    <form name="fblogin" action="https://dummyFacebook.com" method="post">
+        <table align="center">
+            <caption>
+                <h1>
+                    <u>Registration Form</u>
+                </h1>
+            </caption>
+            <tr>
+                <td>
+                    <label for="first">First Name </label>
+                </td>
+                <td>
+                    <input type="text" name="first" id="first" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="last">Last Name </label>
+                </td>
+                <td>
+                    <input type="text" name="last" id="last" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nick">Nick Name </label>
+                </td>
+                <td>
+                    <input type="text" name="nick" id="nick">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password </label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth </label>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="others">
+                    <label for="other">Others</label>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="mob">Mobile </label>
+                </td>
+                <td>
+                    <input type="tel" name="mob" id="mob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address </label>
+                </td>
+                <td>
+                    <textarea name="address" id="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit"> &nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="reset">
+
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

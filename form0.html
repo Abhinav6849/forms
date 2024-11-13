@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body bgcolor="silver">
+    <form action="https://dummyFacebook.com" name="fblogin" method="post">
+        <table align="center">
+            <caption>
+                <h1>Registration Form</h1>
+            </caption>
+
+            <tr>
+
+                <td>
+                    <label for="fName">First Name</label><br>
+                    <input type="text" name="fName" id="fName">
+                </td>
+                <td>
+                    <label for="lName">Last Name</label><br>
+                    <input type="text" name="lName" id="lName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Birthday</label> <br>
+                    <input type="date" name="dob" id="dob">
+                </td>
+                <td>Gender <br>
+                    <input type="radio" name="male" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="female" id="female" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                </td>
+                <td>
+                    <label for="mobile">Phone number</label><br>
+                    <input type="tel" name="mobile" id="mobile">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="course">Course</label><br>
+                    <select name="course" id="course">Choose Option
+                        <option value="option">Choose option</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JAVA">JAVA</option>
+                        <option value="JAVASCRIPT">JAVASCRIPT</option>
+                        <option value="REACT">REACT</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
